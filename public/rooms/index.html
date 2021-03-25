@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rooms</title>
+
+    <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: rgb(31, 31, 31);
+      }
+
+      #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 500px;
+        height: 500px;
+        /* background-color: rgba(128, 128, 128, 0.146); */
+        background-color: rgba(144, 238, 144, 0.091);
+
+        transition: 200ms;
+      }
+
+      #container:hover {
+        background-color: rgba(144, 238, 144, 0.187);
+      }
+
+      a.btn {
+        text-decoration: none;
+        text-align: center;
+        padding: 1rem 1.8rem;
+        border-radius: 3rem;
+        width: 50%;
+
+        background-color: rgba(0, 0, 0, 0.571);
+        color: lightgreen;
+
+        transition: 200ms;
+      }
+
+      a.btn:hover {
+        background-color: black;
+      }
+
+      a.btn:first-of-type {
+        margin-bottom: 2rem;
+      }
+
+      a.btn:last-of-type {
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <a class="btn" href="/grupo1"> Grupo 1 </a>
+      <a class="btn" href="/grupo2"> Grupo 2 </a>
+    </div>
+  </body>
+</html>

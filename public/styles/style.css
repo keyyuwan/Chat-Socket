@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgb(33, 33, 33);
+}
+
+#messages {
+  background-color: rgba(0, 0, 0, 0.571);
+  color: white;
+  height: 450px;
+  width: 800px;
+  border: 1px solid rgba(144, 238, 144, 0.81);
+  border-radius: 10px;
+}
+
+form {
+  width: 50%;
+  text-align: center;
+}
+
+form > input {
+  outline: none;
+  border: 1px solid rgba(144, 238, 144, 0.42);
+  border-radius: 5px;
+  padding: 5px;
+  /* background-color: rgba(133, 133, 133, 0.495); */
+  background-color: rgb(33, 33, 33);
+  color: white;
+  font-size: 1rem;
+}
+
+form > input:focus {
+  border-color: lightgreen;
+}
+
+input#user {
+  margin-bottom: 1rem;
+}
+
+input#message {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.btn-define,
+.btn-submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3rem;
+  outline: none;
+  font: 600 1rem Archivo;
+
+  background-color: rgba(0, 0, 0, 0.571);
+  color: rgba(144, 238, 144, 0.502);
+
+  transition: 200ms;
+}
+
+.btn-define:hover,
+.btn-submit:hover {
+  background-color: black;
+  color: lightgreen;
+  cursor: pointer;
+}
+
+.btn-define {
+  margin-left: 1rem;
+}
+
+.btn-submit {
+  margin-top: 1rem;
+  width: 10rem;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-family: "Poppins", "sans-serif";
+}
